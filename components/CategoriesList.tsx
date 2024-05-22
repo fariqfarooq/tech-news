@@ -23,7 +23,9 @@ const categories = await getCategories()
   <div className="flex gap-2 text-sm flex-wrap">
      
     {categories && categories.map((category)=>
-       <Link className="px-4 py-1 rounded-md bg-slate-800 text-white cursor-pointer" href={`/categories/${category.catName}`}>
+       <Link 
+       key={category.id}
+       className="px-4 py-1 rounded-md bg-slate-800 text-white cursor-pointer" href={`/categories/${category.catName}`}>
         {category.catName}
         </Link>)}
   </div>
