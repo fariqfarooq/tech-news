@@ -1,6 +1,7 @@
 
 # tech-news 
-click on the link below to check my project
+# nextjs & typescript
+click on the link  to check my project
 https://technewsfromfariq.vercel.app/
 
 
